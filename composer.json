@@ -1,0 +1,20 @@
+{
+    "name": "daverandom/serial",
+    "description": "Serial device manipulation toolkit",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Chris Wright",
+            "email": "foss.serial@daverandom.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "DaveRandom\\Serial\\": "src/" },
+        "files": [ "src/functions.php" ]
+    },
+    "require": {
+        "php": ">=7.2",
+        "daverandom/enum": "^1.0"
+    }
+}
